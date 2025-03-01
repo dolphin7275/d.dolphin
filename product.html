@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Dakshit Designers Pvt. Ltd.</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+ <style>
+      .custom-navbar {
+          background-color: #4B0082;
+          white-space: pre;
+          
+      }
+    
+      .navbar-nav .nav-link {
+          transition: transform 0.3s ease-in-out, color 0.3s ease, background-color 0.3s ease;
+      }
+      .navbar-nav .nav-link:hover {
+          color: blue;
+          background-color:cadetblue;
+          border-radius: 5px;
+          transform: scale(1.1);
+      }
+      .contact-section {
+          background-color: blue;
+          padding: 100px;
+          border-radius: 10px;
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      }
+      .contact-card {
+          text-align: center;
+          padding: 100px;
+          border-radius: 10px;
+          background: rgb(10, 9, 9);
+          box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+      }
+      .contact-card i {
+          font-size: 40px;
+          color: #4CAF50;
+      }
+
+
+/* Left Side Scrolling Image Container */
+.scrolling-images {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 20%;
+    height: calc(100vh - 100px); /* Adjust height to not overlap footer */
+    overflow: hidden;
+    background: #f8f9fa;
+    padding: 10px;
+    border-right: 1px solid #ddd;
+}
+
+/* Inner Wrapper for Infinite Scrolling */
+.scroll-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    animation: scrollUp 30s linear infinite;
+}
+
+/* Image Styling */
+.scroll-wrapper img {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+}
+
+/* Keyframes for Continuous Scrolling */
+@keyframes scrollUp {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-50%); }
+}
+
+
+        .carousel-inner img {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .carousel-inner img {
+        height: 300px;
+    }
+}
+
+.container {
+    max-width: 1200px;
+    
+}
+
+.row.w-75 {
+    align-items: center;
+}
+
+
+
+
+ </style>
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+    <a>
+      <img src="assets/images/Logo.png" alt="Logo" style="height: 50px; width: 100px;" >
+      <span class="navbar-brand" >D.Dolphin</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto ">
+        <li class="nav-item"><a class="nav-link text-light" href="index.html">Home </a></li>
+        <li class="nav-item"><a class="nav-link text-light" href="about.html"> About </a></li>
+        <li class="nav-item"><a class="nav-link text-light" href="product.html"> Products </a></li>
+        <li class="nav-item"><a class="nav-link text-light" href="event.html">Events </a></li>
+        <li class="nav-item"><a class="nav-link text-light" href="contact.html">Contact </a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<main>
+<section>
+    <div>
+</div>
+</section>
+<section  class="pt-5">
+<div>
+<marquee behavior="scroll" direction="left" scrollamount="10"  class="fst-italic fs-6" style="margin-top: 5px;">
+  🎉 Welcome to Dakshit Designers | Explore Our Latest Collection | Our Product Available! 🎉
+</marquee>
+</div></section>
+ <!-- Left Side Scrolling Images
+<div class="scrolling-images sticky ">
+    <div class="scroll-wrapper">
+        Original Images
+        <img src="assets/images/dress11.jpeg" alt="Product 1">
+        <img src="assets/images/dress12.jpeg" alt="Product 2">
+        <img src="assets/images/dress13.jpeg" alt="Product 3">
+        <img src="assets/images/dress14.jpeg" alt="Product 4">
+        <img src="assets/images/dress15.jpeg" alt="Product 5">
+        <img src="assets/images/dress3.jpeg" alt="Product 6">
+        <img src="assets/images/dress35.jpg" alt="Product 7">
+        <img src="assets/images/dress45.jpg" alt="Product 8">
+        <img src="assets/images/dress52.jpg" alt="Product 9">
+        <img src="assets/images/dress54.jpg" alt="Product 10">
+        <img src="assets/images/dress4.jpeg" alt="Product 11">
+        <img src="assets/images/dress24.jpg" alt="Product 12">
+        <img src="assets/images/dress26.jpg" alt="Product 13">
+        <img src="assets/images/dress37.jpg" alt="Product 14">
+        <img src="assets/images/dress38.jpg" alt="Product 15">
+        <img src="assets/images/dress39.jpg" alt="Product 16">
+        <img src="assets/images/dress40.jpg" alt="Product 17">
+        <img src="assets/images/dress42.jpg" alt="Product 18">
+        <img src="assets/images/dress44.jpg" alt="Product 19">
+        <img src="assets/images/dress46.jpg" alt="Product 20">
+        <img src="assets/images/dress47.jpg" alt="Product 21">
+        <img src="assets/images/dress51.jpg" alt="Product 22">
+        <img src="assets/images/dress57.jpg" alt="Product 23">
+
+        Duplicate Images for Seamless Loop
+        <img src="assets/images/dress11.jpeg" alt="Product 1">
+        <img src="assets/images/dress12.jpeg" alt="Product 2">
+        <img src="assets/images/dress13.jpeg" alt="Product 3">
+        <img src="assets/images/dress14.jpeg" alt="Product 4">
+        <img src="assets/images/dress15.jpeg" alt="Product 5">
+        <img src="assets/images/dress3.jpeg" alt="Product 6">
+        <img src="assets/images/dress35.jpg" alt="Product 7">
+        <img src="assets/images/dress45.jpg" alt="Product 8">
+        <img src="assets/images/dress52.jpg" alt="Product 9">
+        <img src="assets/images/dress54.jpg" alt="Product 10">
+        <img src="assets/images/dress4.jpeg" alt="Product 11">
+        <img src="assets/images/dress24.jpg" alt="Product 12">
+        <img src="assets/images/dress26.jpg" alt="Product 13">
+        <img src="assets/images/dress37.jpg" alt="Product 14">
+        <img src="assets/images/dress38.jpg" alt="Product 15">
+        <img src="assets/images/dress39.jpg" alt="Product 16">
+        <img src="assets/images/dress40.jpg" alt="Product 17">
+        <img src="assets/images/dress42.jpg" alt="Product 18">
+        <img src="assets/images/dress44.jpg" alt="Product 19">
+        <img src="assets/images/dress46.jpg" alt="Product 20">
+        <img src="assets/images/dress47.jpg" alt="Product 21">
+        <img src="assets/images/dress51.jpg" alt="Product 22">
+        <img src="assets/images/dress57.jpg" alt="Product 23">
+    </div>
+</div>
+
+
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> -->
+
+
+<!-- 🌟 Upcoming Products -->
+<section class="container my-4 ">
+  <h2 class="text-center fs-1 fw-bold " style="margin-left: 40px;">OUR UPCOMMING PRODUCT</h2>
+  </section>
+
+<section>
+ <section>
+    <div class=" justify-content-end">
+        <div > 
+            <h2 class=" fs-5 " style="margin-top: 90px;">Introducing Our Exclusive Product – Elegance, Style & Comfort!</h2>
+         <p class=" fs-5 text-center">We are thrilled to unveil our upcoming collection, featuring a diverse range of premium products designed to enhance your lifestyle. 
+           </p>
+        </div>
+    </div>
+  </section>
+
+
+  <!-- Container -->
+<!-- Right-Aligned Container -->
+<div class="justify-content-end">
+    <div class="row w-100" style="margin-top: 100px;"> <!-- Adjust width to avoid full width -->
+        <!-- Carousel Section -->
+        <div class="col-md-6">
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/images/gold1.jpeg" class="d-block w-100" alt="Fashion Image 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/gold2.jpeg" class="d-block w-100" alt="Fashion Image 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/gold3.jpeg" class="d-block w-100" alt="Fashion Image 3">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/images/gold4.jpeg" class="d-block w-100" alt="Fashion Image 3">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/gold5.jpeg" class="d-block w-100" alt="Fashion Image 3">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/images/earing2.png" class="d-block w-100" alt="Fashion Image 3">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/jewelry11.png" class="d-block w-100" alt="Fashion Image 3">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/jewelry12.png" class="d-block w-100" alt="Fashion Image 3">
+            </div>
+           
+                </div>
+                <!-- Carousel Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+  
+        <!-- Text Section -->
+        <div class="col-md-6 d-flex align-items-start">
+            <div style="margin-top: 150px;">
+                <h2 class="fw-bold fst-italic">  Jewelry –  Timeless Elegance for Every Occasion</h2>
+                <p class="fst-italic fs-5">
+                    Discover our stunning jewelry collection, crafted to add a 
+                    touch of sophistication to your look. From intricately 
+                    designed necklaces and earrings to elegant bracelets and
+                     rings, our pieces are made with high-quality materials and
+                      exquisite craftsmanship. Whether you prefer modern minimalism
+                       or traditional charm, our jewelry is perfect for every occasion,
+                        making you shine with confidence and grace.
+                  </p>
+            </div>
+        </div>
+    </div>
+  </div>
+  </div>
+        </div>
+        
+
+
+
+           <!-- Container -->
+           <div class="justify-content-end">
+            <div class="row w-100" style="margin-top: 100px;">
+                 <!-- Text Section -->
+        <div class="col-md-6 d-flex align-items-start">
+            <div>
+                <h2 class="fw-bold fst-italic" style="margin-top: 200px;"> Cosmetics – Enhance Your Natural Beauty</h2>
+                <p class="fst-italic fs-5"> Our premium cosmetics range is designed to bring out your best
+                     features while nourishing your skin. From vibrant lip shades to long-lasting foundations, 
+                     skincare essentials, and luxurious fragrances, our products are formulated with high-quality
+                      ingredients for a flawless and radiant look.
+                     Experience beauty that cares for your skin, ensuring you feel confident and beautiful every day.
+
+                </p>
+                 
+            </div>
+        </div>
+        <!-- Carousel Section -->
+        <div class="col-md-6">
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/images/cos1.jpeg" class="d-block w-100" alt="Fashion Image 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/cos2.jpeg" class="d-block w-100" alt="Fashion Image 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/cos3.jpeg" class="d-block w-100" alt="Fashion Image 3">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/images/cos4.jpeg" class="d-block w-100" alt="Fashion Image 3">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/cosmatics3.png" class="d-block w-100" alt="Fashion Image 3">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/images/cosmatics6.png" class="d-block w-100" alt="Fashion Image 3">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/lip1.png" class="d-block w-100" alt="Fashion Image 3">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/lip2.png" class="d-block w-100" alt="Fashion Image 3">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/lip3.png" class="d-block w-100" alt="Fashion Image 3">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/lip4.png" class="d-block w-100" alt="Fashion Image 3">
+            </div>
+                </div>
+
+                <!-- Carousel Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+  
+       
+    </div>
+  </div>
+  </div>
+        </div>
+        
+
+         <!-- Container -->
+         <div class="justify-content-end">
+            <div class="row w-100" style="margin-top: 120px;">
+        <!-- Carousel Section -->
+        <div class="col-md-6">
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/images/fat1.jpeg" class="d-block w-100" alt="Fashion Image 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/foot11.png" class="d-block w-100" alt="Fashion Image 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/foot12.png" class="d-block w-100" alt="Fashion Image 3">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/images/foot13.png" class="d-block w-100" alt="Fashion Image 3">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/foot15.png" class="d-block w-100" alt="Fashion Image 3">
+                </div>
+            
+                </div>
+                <!-- Carousel Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+  
+        <!-- Text Section -->
+        <div class="col-md-6 d-flex align-items-start">
+            <div>
+                <h2 class="fw-bold fst-italic" style="margin-top: 200px;">  Footwear – Comfort Meets Style </h2>
+                <p class="fst-italic fs-5">
+                     
+                    Step into elegance with our stylish and comfortable footwear collection. Whether you're
+                     looking for trendy heels, casual sneakers, or classic leather
+                     shoes, we offer a wide range of designs to suit every occasion.
+                      Crafted with precision and high-quality materials, our footwear ensures durability, comfort, and unmatched style.</p>
+                 
+            </div>
+        </div>
+    </div>
+  </div>
+  </div>
+        </div>
+    
+
+
+         <!-- Container -->
+         <div class="justify-content-end">
+            <div class="row w-100" style="margin-top: 100px;">
+                 <!-- Text Section -->
+        <div class="col-md-6 d-flex align-items-start">
+            <div>
+                <h2 class="fw-bold fst-italic" style="margin-top: 200px;"> Leather Products – A Statement of Luxury</h2>
+                <p class="fst-italic fs-5"> 
+                    Indulge in our premium leather collection, featuring wallets,
+                     handbags, belts, and more. Designed with superior craftsmanship
+                      and durable materials, our leather products offer a perfect
+                       blend of style and functionality. Whether for professional
+                        or casual use, our collection adds a touch of sophistication
+                         to your everyday essentials.
+
+                </p>
+                 
+            </div>
+        </div>
+        <!-- Carousel Section -->
+        <div class="col-md-6">
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/images/leather2.png" class="d-block w-100" alt="Fashion Image 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/leather3.png" class="d-block w-100" alt="Fashion Image 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/leather4.png" class="d-block w-100" alt="Fashion Image 3">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/images/leather dress1.png" class="d-block w-100" alt="Fashion Image 3">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/leather dress2.png" class="d-block w-100" alt="Fashion Image 3">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/images/leather dress3.png" class="d-block w-100" alt="Fashion Image 3">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/bag.png" class="d-block w-100" alt="Fashion Image 3">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/bag1.png" class="d-block w-100" alt="Fashion Image 3">
+            </div>
+                </div>
+                <!-- Carousel Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+  
+       
+    </div>
+  </div>
+  </div>
+        </div>
+    
+
+         <!-- Container -->
+         <div class="justify-content-end">
+            <div class="row w-100" style="margin-top: 100px;">
+        <!-- Carousel Section -->
+        <div class="col-md-6">
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/images/watch1.png" class="d-block w-100" alt="Fashion Image 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/watch2.png" class="d-block w-100" alt="Fashion Image 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/watch7.png" class="d-block w-100" alt="Fashion Image 3">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/images/watch6.png" class="d-block w-100" alt="Fashion Image 3">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/handbags1.png" class="d-block w-100" alt="Fashion Image 3">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/images/handbags3.png" class="d-block w-100" alt="Fashion Image 3">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/ass.png" class="d-block w-100" alt="Fashion Image 3">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/ass2.png" class="d-block w-100" alt="Fashion Image 3">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/ass3.png" class="d-block w-100" alt="Fashion Image 3">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/ass4.png" class="d-block w-100" alt="Fashion Image 3">
+            </div>
+                </div>
+                <!-- Carousel Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+  
+        <!-- Text Section -->
+        <div class="col-md-6 d-flex align-items-start">
+            <div>
+                <h2 class="fw-bold fst-italic"style="margin-top: 200px;"> Accessories – Elevate Your Fashion Game</h2>
+                <p class="fst-italic fs-5"> 
+                    Complete your look with our trendy accessories, including
+                     stylish handbags, watches, sunglasses, and more. Designed to complement any outfit, our accessories
+                     reflect elegance, fashion, and versatility, ensuring you stand out wherever you go.
+
+                </p>
+            </div>
+        </div>
+    </div>
+  </div>
+  </div>
+        </div>
+    
+
+         <!-- Container -->
+         <div class="justify-content-end">
+            <div class="row w-100"style="margin-top: 100px;">
+
+                 <!-- Text Section -->
+        <div class="col-md-6 d-flex align-items-start">
+            <div>
+                <h2 class="fw-bold fst-italic" style="margin-top: 200px;"> Wipes – Hygiene and Care in Every Touch </h2>
+                <p class="fst-italic fs-5">
+                    Our soft and gentle wipes are designed for everyday
+                     freshness and cleanliness. Whether for skincare, baby care, or general hygiene, our wipes are made with skin-friendly 
+                    
+                    ingredients, ensuring safety and comfort while keeping you refreshed throughout the day.
+
+                </p>
+                  
+            </div>
+        </div>
+        <!-- Carousel Section -->
+        <div class="col-md-6">
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/images/wip2.png" class="d-block w-100" alt="Fashion Image 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/wip3.png" class="d-block w-100" alt="Fashion Image 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/wip4.png" class="d-block w-100" alt="Fashion Image 3">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/images/wip5.png" class="d-block w-100" alt="Fashion Image 3">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/wip6.png" class="d-block w-100" alt="Fashion Image 3">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/images/wip7.png" class="d-block w-100" alt="Fashion Image 3">
+              </div>
+                </div>
+                <!-- Carousel Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+  
+       
+    </div>
+  </div>
+  </div>
+        </div>
+    
+
+         <!-- Container -->
+         <div class="justify-content-end">
+            <div class="row w-100"style="margin-top: 100px;">
+        <!-- Carousel Section -->
+        <div class="col-md-6">
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/images/fibric2.png" class="d-block w-100" alt="Fashion Image 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/fibric3.png" class="d-block w-100" alt="Fashion Image 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/fibric4.png" class="d-block w-100" alt="Fashion Image 3">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/images/fibric5.png" class="d-block w-100" alt="Fashion Image 3">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/Febric1.png" class="d-block w-100" alt="Fashion Image 3">
+                </div>
+               
+                </div>
+                <!-- Carousel Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+  
+        <!-- Text Section -->
+        <div class="col-md-6 d-flex align-items-start">
+            <div>
+                
+                <h2 class="fw-bold fst-italic" style="margin-top: 200px ;"> Fabric – Redefining Quality and Comfort</h2> 
+                <p class="fst-italic fs-5"> 
+                    Experience the finest fabrics designed for luxury,
+                     comfort, and durability. Our collection includes
+                      high-quality textiles perfect for fashion, home décor, 
+                      and other creative designs. With vibrant colors and 
+                    premium textures, our fabrics enhance every creation with elegance and sophistication.
+
+                </p>
+                 
+            </div>
+        </div>
+    </div>
+  </div>
+  </div>
+        </div>
+    
+
+
+         <!-- Container -->
+         <div class=" justify-content-end">
+            <div class="row w-100" style="margin-top: 100px;">
+                 <!-- Text Section -->
+        <div class="col-md-6 d-flex align-items-start">
+            <div>
+                <h2 class="fw-bold fst-italic" style="margin-top: 200px;">Sanitary Pads – Comfort and Protection You Can Trust </h2>
+                <p class="fst-italic fs-5"> 
+                    Stay confident and worry-free with our ultra-absorbent sanitary pads,
+                     designed for superior protection and comfort.
+                      Made with soft, skin-friendly materials, our pads ensure maximum hygiene and freshness, 
+                    allowing you to go about your day with ease and confidence.
+
+                </p>
+            </div>
+        </div>
+        <!-- Carousel Section -->
+        <div class="col-md-6">
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/images/pad.png" class="d-block w-100" alt="Fashion Image 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/pad2.png" class="d-block w-100" alt="Fashion Image 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/pad3.png" class="d-block w-100" alt="Fashion Image 3">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/images/pad5.png" class="d-block w-100" alt="Fashion Image 3">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/pad6.png" class="d-block w-100" alt="Fashion Image 3">
+                </div>
+               
+                </div>
+                <!-- Carousel Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+  
+       
+    </div>
+  </div>
+  </div>
+        </div>
+
+
+      </section>
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+<!-- Footer -->
+<footer class="text-center text-lg-start text-white" style="background-color: #0b0b0b">
+  <svg width="150" height="150" viewBox="0 0 24 24">
+  </svg>
+  <h style="margin-bottom: 100px; font-size: 2em; font-family:Arial Rounded MT Bold ;">D.DOLPHIN</h>
+  <div class="container p-4 pb-0">
+ 
+    <section style="margin-bottom: 60px;">
+  
+      <div class="row">
+        
+        <div class=" col-5 ">
+          <h6 class="text-uppercase" style="font-size: 20px;"><b> DAKSHIT DOLPHIN DESIGNERS PVT.LT </b></h6>
+          <p class="my-4">
+            Our Company is a new venture that has been created for theGlobal Audience. Our focus is to provide Customized wear,apparel and accessories and position ourselves as the top fashion Venture serving global market.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <hr class="w-100 clearfix d-md-none" />
+
+        <!-- Grid column -->
+        <div class="col-2 mx-auto " style="font-size: 15px;">
+          <h6 class="text-uppercase " style="font-size: 20px"><b>Useful Links</b></h6>
+          
+            <a class="text-decoration-none text-light" href="about.html">About us</a>
+            <br>
+            <a class="text-decoration-none text-light" href="product.html">Products</a>
+            <br>
+            <a class="text-decoration-none text-light" href="Event.html">Events</a>
+            <br>
+            <a class="text-light text-decoration-none" href="Collection.html">Collections</a>
+            <br>
+            <a class="text-light text-decoration-none" href="product.html"> Jewellery </a>
+            <br>
+            <a class="text-light text-decoration-none" href="product.html">   Footwear </a>
+            <br> 
+            <a class="text-light text-decoration-none" href="product.html">  Cosmetic </a>
+            <br>
+            <a class="text-light text-decoration-none" href="product.html">   Accessories </a>
+            <br>
+            <a class="text-light text-decoration-none" href="product.html">   Leather Products </a>
+          
+        </div>
+        <!-- Grid column -->
+
+        <div class="col-2 mx-auto " style="font-size: 15px;">
+          <h6 class="text-uppercase " style="font-size: 20px"><b>Quick Links</b></h6>
+          
+            <a class="text-decoration-none text-light" href="privacy-policy.html">Privacy Polices</a>
+            <br>
+            <a class="text-decoration-none text-light" href="faq.html">FAQ</a>
+            <br>
+            <a class="text-light text-decoration-none" href="#"> Legal Statment </a>
+            <br>
+            <a class="text-light text-decoration-none" href="#">Careers</a>
+            <br>
+        </div>
+
+        <!-- Grid column -->
+        <div class="col-xl-3 mx-auto " style="font-size: 15px;">
+          <h6 class="text-uppercase " style="font-size: 20px"><b>Contact</b></h6>
+          <p>
+            <a>House No.186, Gurguj Lajpatnagar,  Ward No.13, Near Punjab Sindh Bank, Sumerpur, Hamirpur Uttar Pradesh (210502), India</a>
+          </p>
+          <p>
+            <a class="text-decoration-none text-light" href="tel:+917275394960">Ph.- +91 9415488382</a>
+        </p>
+            <a class="text-light text-decoration-none" href="mailto:nitishshivhare@ddolphins.com">dakshit.dolphin.designers.pvt.ltd@gmail.com</a>
+            <br>
+          </div>
+          <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+      </div>
+      <!-- Grid container -->
+ 
+      <!-- Copyright -->
+      <p class="text-center my-5" style="background-color: rgba(12, 12, 12, 0.2);">
+        © 2024 Copyright :
+        <a>D Dolphin. All Rights Reserved.</a
+          >
+        </p>
+      <!-- Copyright -->
+    </footer>
+   
+    <!-- Footer -->
+  </div>
+  <!-- End of .container -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
