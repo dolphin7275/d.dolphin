@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    
+}
+
+/* Hero Section */
+.hero {
+    background: url("img_assets/images/images/about3.png") no-repeat center center/cover;
+    height: 50vh;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.header{
+    position: absolute;
+    top: 80px;
+    left: 420px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    color: rgb(7, 7, 7);
+    font-size: 3em;
+    white-space: pre;
+   /* text-decoration: underline; */
+   border-bottom-style: solid;
+  border-bottom-width: thin;
+  }
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+.img1 {
+    opacity: 1.0;
+    margin-top: 120px;
+  }
+  
+  .img1:hover {
+    opacity: 0.5;
+  }
+  .privacy{
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    font-family: Arial MT Rounded Bold;
+    font-size: 3em;
+    margin-top: 60px;
+    position: absolute;
+  }
+
+  main {
+    /* make sure to cover the screen */
+    min-height: 100vh;
+  
+    /* need a solid bg to hide the footer */
+    background: white;
+  
+    /* put on top */
+    position: relative;
+    z-index: 1;
+  
+    font: 16px/1.4 system-ui, sans-serif;
+    padding: 2rem;
+  }
+  footer {
+    /* place on the bottom */
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  
+    background: #252a47;
+    display: grid;
+    place-items: center;
+    padding: 50px;
+  }
+  
+  
